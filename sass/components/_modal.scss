@@ -52,11 +52,8 @@
 }
 
 .modal-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
+  @include font(700, 20px, 23px, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
 
@@ -68,9 +65,10 @@
 }
 
 .input-label {
-  font-size: 12px;
-  line-height: 1.1666;
-  letter-spacing: 0.01em;
+  @include font(null, 12px, 1.1666, 0.01em);
+  // font-size: 12px;
+  // line-height: 1.1666;
+  // letter-spacing: 0.01em;
   color: #757575;
   display: block;
 }
@@ -131,19 +129,21 @@
     border-color: #2196f3;
   }
   &::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.1666;
-    letter-spacing: 0.01em;
+    @include font(400, 12px, 1.1666, 0.01em);
+    // font-weight: 400;
+    // font-size: 12px;
+    // line-height: 1.1666;
+    // letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
   }
 }
 
 .check-text {
-  font-size: 14px;
+  @include font(null, 14px, 1.7142px, 0.03em);
+  // font-size: 14px;
+  // line-height: 1.7142px;
+  // letter-spacing: 0.03em;
   color: #757575;
-  line-height: 1.7142px;
-  letter-spacing: 0.03em;
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -181,13 +181,14 @@
 }
 
 .modal-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
+  @include font(700, 16px, 1.875, 0.06em);
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.875;
+  // letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   color: #ffffff;
   width: 200px;
   height: 50px;

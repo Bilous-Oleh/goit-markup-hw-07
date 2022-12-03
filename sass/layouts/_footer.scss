@@ -12,9 +12,10 @@
 }
 
 .contacts-item {
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
+  @include font(null, 14px, 1.5, 0.03em);
+  // font-size: 14px;
+  // line-height: 1.5;
+  // letter-spacing: 0.03em;
   &:not(:last-child) {
     margin-bottom: 9px;
   }
@@ -63,9 +64,10 @@
 }
 
 .footer-title {
-  font-size: 14px;
-  line-height: 1.1428;
-  letter-spacing: 0.03em;
+  @include font(null, 14px, 1.1428, 0.03em);
+  // font-size: 14px;
+  // line-height: 1.1428;
+  // letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
@@ -118,14 +120,15 @@
 }
 
 .online-input {
+  @include font(400, 16px, 1.25, 0.03em);
   width: 358px;
   height: 50px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  // font-weight: 400;
+  // font-size: 16px;
+  // line-height: 1.25;
+  // letter-spacing: 0.03em;
   display: flex;
   align-items: center;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -145,15 +148,16 @@
 }
 
 .footer-btn {
+  @include font(700, 16px, 1.875, 0.06em);
   width: 200px;
   height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.875;
+  // letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

@@ -38,10 +38,11 @@
 }
 
 .header-nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.333;
-  letter-spacing: 0.02em;
+  @include font(500, 14px, 1.333, 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.333;
+  // letter-spacing: 0.02em;
   color: #212121;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -77,10 +78,11 @@
 }
 
 .header-contact a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1429;
-  letter-spacing: 0.02em;
+  @include font(500, 14px, 1.1429, 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.1429;
+  // letter-spacing: 0.02em;
   display: flex;
   align-items: center;
 }
