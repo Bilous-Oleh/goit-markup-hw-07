@@ -1,0 +1,47 @@
+.spacial-list {
+  display: flex;
+  gap: 30px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.1666;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.spacial-list-picture {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.spacial-list-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.spacial-uptitle {
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+  margin-bottom: 10px;
+}
+
+.spacial-text {
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.spacial-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
