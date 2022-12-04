@@ -14,11 +14,11 @@
   margin-right: auto;
 }
 
-.hero-container {
+.hero__container {
   max-width: 696px;
 }
 
-.hero-title {
+.hero__title {
   @include font(null, 44px, 1.3636, 0.06em);
   // font-size: 44px;
   // line-height: 1.3636;
@@ -29,7 +29,7 @@
   margin-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
   @include font(700, 16px, 1.875, 0.06em);
   min-width: 216px;
   height: 50px;

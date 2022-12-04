@@ -1,5 +1,11 @@
-.doing-container {
+.doing__container {
   padding-top: 0;
+}
+
+.doing__title {
+  margin-top: 0;
+  // margin-bottom: 50px;
+  text-align: center;
 }
 
 .doing-list {
@@ -8,7 +14,7 @@
   position: relative;
 }
 
-.doing-list-text {
+.doing-list__text {
   @include font(700, 14px, 1.1428, 0.03em);
   position: absolute;
   bottom: 0;
@@ -24,10 +30,4 @@
   padding-bottom: 27px;
   text-align: center;
   text-transform: uppercase;
-}
-
-.doing-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  text-align: center;
 }
